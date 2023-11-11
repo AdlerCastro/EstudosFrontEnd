@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Basic CSS</title>
+
+    <!-- Internal CSS -->
+    <style>
+        p{
+            color: blue;
+            font-size: 20px;
+        }
+    </style>
+
+    <!-- Arquivos CSS -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/lists.css">
+
+</head>
+
+<body>
+    <div>
+        <h1>Desenvolvimento estético da Web</h1>
+        <p>O projeto em questão apresenta como objetivo o estudo prático de desenvolvimento estético de uma página web do básico ao avançado, compreendendo os tópicos de CSS.</p>
+        <br>
+
+        <!-- Meios -->
+        <h3>Tipos de aplicação do CSS</h3>
+        <p>O CSS apresenta alguns modos para adicionar ao HTML, sendo elas:</p>
+    </div>
+    <div>
+        <ul>
+            <li>Inline
+                <br>
+                O CSS é feito por atributo individual, bom para pequenas modificações, mas, polui a leitura do código;
+            </li>
+            <li>Internal:
+                <br>
+                O CSS é feito dentro da tag head, torna o arquivo organizado, mas, sobrecarregado;
+            </li>
+            <li>External:
+                <br>
+                Importa um arquivo externo que contém o CSS referente, excelente para projetos grandes, tornando mais organizado, prático e legível;
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h3>Exemplos:</h3>
+        <p style="color: tomato; font-size: 20px; border-bottom: 1px solid red; width: 26%;">Modificado por inline</p>
+
+        <p2>Modificado por Internal</p2>
+        <br>
+
+        <p3>Modificado por External</p3>
+        <br>
+    </div>
+    
+    <!-- Prioridade de formatação -->
+    <div>
+        <h3>Ordem do CSS</h3>
+        <p style="color: brown;">Esse parágrafo demonstra a ordem de prioridade entre o inline, internal e external, a qual seria Inline > Internal = External > Padrão do navegador</p>
+    </div>
+
+    <!-- Arquivos CSS -->
+    <div>
+        <h3>Vários arquivos CSS em um único projeto</h3>
+        <p>Quando necessário um CSS único para vários elementos em comum, pode fazer essa nova importação para organização do projeto.</p>
+        <h4>Exemplo:</h4>
+
+        <ul id="lista_frutas">
+            <li>Pêra</li>
+            <li>Uva</li>
+            <li>Maçã</li>
+        </ul>
+        <br>
+    </div>
+
+    <div>
+        <h3>Classes e ids</h3> <!-- Classes e Ids -->
+        <p>Ordem de prioridade: id > classes > seletor de tag</p>
+        <h3>- Classes</h3> <!-- Classes -->
+        <div>
+            <p>Atributos de tags do HTML diretamente relacionados ao CSS. Capazes de especificar elementos únicos com eles, sendo de escolha pessoal o valor do atributo da classe inserida.</p>
+
+            <h4>Exemplos:</h4>
+
+            <p class="paragrafo">Apenas uns exemplos de paragrafos</p>
+            <p class="paragrafo">Apenas uns exemplos de paragrafos</p>
+            <p class="paragrafo">Apenas uns exemplos de paragrafos</p>
+            <p class="paragrafo">Apenas uns exemplos de paragrafos</p>
+        </div>
+        
+        <div>
+            <h3>- Ids</h3> <!-- IDs -->
+            <p>Assim como as classes, são atributos do HTML. Entretanto, são utilizados individualmente, semelhante as identidades das pessoas. Qualquer valor escrito como atributo será o nome do id. Para
+            chama-lo no css basta escrever # + id</p>
+
+            <h4>Exemplos:</h4>
+
+            <p id="ex1">Testando id</p>
+        </div>
+    </div>
+
+    <div>
+        <h3>Cores</h3><!-- Estudo sobre as cores no css -->
+        <p>Ordem de prioridade: HEX > RGB > HSL > Nomes de cor</p>
+
+        <h4>Exemplos HSL: </h4>
+        <p id="HSL-1">Título de teste</p>
+        <p id="HSL-2">Título de teste</p>
+        <p id="HSL-3">Título de teste</p>
+    </div>
+
+
+</body>
+</html>

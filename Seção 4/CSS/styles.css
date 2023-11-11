@@ -1,0 +1,38 @@
+body{
+    padding-bottom: 5000px;
+}
+
+p3{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+p{
+    color: blueviolet;
+}
+
+.paragrafo{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.623);
+    width: 42%;
+}
+
+#ex1{
+    color: coral;
+    font-size: 20px;
+    background-color:dimgray;
+    width: 14%;
+}
+
+#HSL-1{
+    color:hsl(100, 100%, 40%)
+}
+
+#HSL-2{
+    color:hsl(202, 50%, 50%)
+}
+
+#HSL-3{
+    color: hsl(78, 92%, 37%);
+}

@@ -1,0 +1,13 @@
+ul{
+    border: 1px solid blue;
+    padding: 10px ;
+    width: 45%;
+}
+
+li{
+    color: rgb(0, 153, 102);
+}
+
+#lista_frutas{
+    width: 5%;
+}
